@@ -21,9 +21,10 @@ app.use((req, res, next) => {
 For example, hum chahty hain k logged in user admin hona chahiye... to hum aik middleware code likh skty hain jo check kre ga k user admin hai ya nai. jaisy hi user k credentials match ho jayn gy to yeh apne ap next pr move nai kre ga... hume is k liye **next()** function use krna hoga, like in the above code.
 
 __*Note: hum is next() method k andr information bhi pass kr skty hain, brackets k andr*__
+
 ---
 __*Note: Position matters in creating middlewares, always keep the middlewares above the routes*__
----
+
 ---
 ## 👉🏻 Types of middlewares:
 
@@ -33,8 +34,8 @@ __*Note: Position matters in creating middlewares, always keep the middlewares a
 - Built in Middlewares
 - Third Party Middlewares - like npm packages
 ---
-### 👉🏻 [For more info, you can checkout ExpressJS official docs](https://expressjs.com/en/guide/using-middleware.html#using-middleware)
+👉🏻 For more info, you can checkout ExpressJS official docs: [click here](https://expressjs.com/en/guide/using-middleware.html#using-middleware)
 
-### 👉🏻 [For third party Middlewares](https://expressjs.com/en/resources/middleware.html)
----
+👉🏻 For third party Middlewares: [click here](https://expressjs.com/en/resources/middleware.html)
+
 ---
