@@ -20,9 +20,9 @@ app.use((req, res, next) => {
 ---
 For example, hum chahty hain k logged in user admin hona chahiye... to hum aik middleware code likh skty hain jo check kre ga k user admin hai ya nai. jaisy hi user k credentials match ho jayn gy to yeh apne ap next pr move nai kre ga... hume is k liye **next()** function use krna hoga, like in the above code.
 
+---
 __*Note: hum is next() method k andr information bhi pass kr skty hain, brackets k andr*__
 
----
 __*Note: Position matters in creating middlewares, always keep the middlewares above the routes*__
 
 ---
