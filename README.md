@@ -226,7 +226,6 @@ app.post('/submitForm', upload.single('imageFile'), (req, res) => {
 // For multiple files:
 
 upload.array('imageFile', 5) // which means, user can upload max 5 images/files. 
-})
 
 // for multiple fields, for example, one pic + documents,
 
