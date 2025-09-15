@@ -1,7 +1,7 @@
 /*
     ?  JSON -> Javascript Object Notation
     ? jsonp() -> Javascript Object Notation with Padding
-    ? res,redirect -> redirect to other page or website
+    ? res.redirect() -> redirect to other page or website
     ? res.render() -> Open the HTML file using a template engine
     ? res.download() -> Download the file from the server
     ? res.sendFile() -> open the file in the side window also prevent from force downloading
@@ -113,7 +113,7 @@ app.get("/accept", (req, res) => {
     if (req.accepts("html")) {
         res.send("<h1>Hello HTML</h1>")
     } else if (req.accepts("json")) {
-        res.send({ messsage: "Hello JSON" })
+        res.send({ message: "Hello JSON" })
     } else if (req.accepts("xml")) {
         res.send("<message>Hello XML</message>")
     } else {
