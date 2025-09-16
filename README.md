@@ -6,7 +6,7 @@
 
 # 🔹Reminder:
 
-### You will find the README.md file in each folder for better understanding for the concepts, es-specially inside:
+### You will find the README.md file in each folder for better understanding of the concepts, es-specially inside:
 
 - ## [Middleware-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/Middleware-Project) 
 
