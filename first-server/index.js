@@ -10,7 +10,7 @@
 const express = require('express')
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded({ extended: false })) // it is used to send or accept the form data.
+app.use(express.urlencoded({ extended: false })) // it is used to parse incoming form data (URL-encoded) and make it accessible in req.body.
 
 const port = 3000;
 
