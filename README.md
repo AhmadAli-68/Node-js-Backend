@@ -6,7 +6,7 @@
 
 # 🔹Reminder:
 
-### You will find the README.md file in each folder for better understanding of the concepts, es-specially inside:
+### You will find the README.md file in each folder for better understanding of the concepts. And I'll recommend you to also read the comments in the code.
 
 - ## [Middleware-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/Middleware-Project) 
 
@@ -17,3 +17,5 @@
 - ## [Session-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/session-project)
 
 - ## [Authentication-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/authentication-project)
+
+- ## [Cookie-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/cookie-project)
