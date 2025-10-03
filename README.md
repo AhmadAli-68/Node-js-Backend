@@ -6,7 +6,7 @@
 
 # 🔹Reminder:
 
-### You will find the README.md file in each folder for better understanding of the concepts. And I'll recommend you to also read the comments in the code.
+### The README.md file is in each folder for a better understanding of the concepts. I recommend reading the comments in the code as well.
 
 - ## [Middleware-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/Middleware-Project) 
 
@@ -21,3 +21,5 @@
 - ## [Cookie-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/cookie-project)
 
 - ## [CSRF-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/CSRF-project)
+
+- ## [CRUD-API-Project](https://github.com/AhmadAli-68/Node-js-Backend/tree/main/crud-api-project)
