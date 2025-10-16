@@ -74,7 +74,7 @@ app.get("/set", (req, res) => {
 //     res.send("<h1>Welcome to About Page</h1>")
 // })
 
-// app.get("/user/:userId-:bookId", (req, res) => {
+// app.get("/user/:userId/:bookId", (req, res) => {
 //     res.send(req.params)
 // })
 
