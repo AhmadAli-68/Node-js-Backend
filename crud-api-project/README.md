@@ -53,3 +53,44 @@ For the API development, we will use the following middleware
 ```javascript
 app.use(express.json())
 ```
+
+---
+
+# 🔹 Image Upload with Multer
+
+Multer is the third party library/package, which is used to upload images using API's.
+
+## 👉🏻 Getting started with Multer
+
+First, we will install the [Multer](https://www.npmjs.com/package/multer) using __npm__
+
+```javascript
+npm install multer
+```
+
+Second, we will include the multer package in our specific file, with path path package from express
+
+```javascript
+import multer from 'multer';
+import path from 'path';
+```
+
+In multer, it contains various components that we need
+
+- Mutler
+    - __Storage__ - *for storing image files in specific destination with original or different filename*
+        - Destination
+        - Filename
+    - __Limits__ - *it specifies what will be the file size or the how many number of files*
+        - fileSize
+        - files
+        - fields
+        - fieldNameSize
+    - __File Filter__ - *it specifies what type of files the users can upload*
+        - Image
+        - PDF
+        - Word
+        - Excel
+        - Video
+
+### If the user does not use the file filter option, then user can upload any type of image or file.
