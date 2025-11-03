@@ -2,10 +2,19 @@ import express from 'express'
 import { connectDB } from './config/db.js'
 import studentRoutes from './routes/students.routes.js'
 import { MulterError } from 'multer'
+import cors from 'cors'
+import path, { dirname } from 'path'
+import { fileURLToPath } from 'url'
 
 const app = express()
 const port = process.env.PORT || 5000
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename)
+
 app.use(express.json())
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
+app.use(cors())
 app.use(express.urlencoded({ extended: false }))
 
 //Database
